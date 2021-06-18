@@ -1,4 +1,5 @@
 # Array Sorting, PROBLEM STATEMENT
+# import timeit
 def minimumSwaps(arr):
     swaps = 0
     temp = {}
@@ -16,5 +17,6 @@ def minimumSwaps(arr):
     print(swaps)
     return(swaps)
 
-minimumSwaps([4, 3, 1, 2])
-
+#
+# elapsed_time = timeit.timeit(minimumSwaps([4, 3, 1, 2]), number=100)/100
+# print(elapsed_time)
